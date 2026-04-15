@@ -8,7 +8,7 @@ const AdminOrders = () => {
   const config = { headers: { Authorization: `Bearer ${userInfo?.token}` } };
 
   // --- SAHI LIVE LINK YAHAN HAI ---
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://final-assigment-ecommerce.vercel.app";
 
   const fetchOrders = async () => {
     // Railway live link set kiya gaya hai

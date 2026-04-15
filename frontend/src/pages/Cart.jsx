@@ -10,7 +10,7 @@ const Cart = () => {
   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
 
   // --- SAHI LIVE LINK YAHAN HAI ---
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://final-assigment-ecommerce.vercel.app";
 
   const removeFromCart = (id) => {
     const updatedCart = cartItems.filter(item => item.product !== id);

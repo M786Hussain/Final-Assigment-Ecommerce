@@ -7,7 +7,7 @@ const MyOrders = () => {
   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
 
   // Aapka sahi Railway Live Link
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://final-assigment-ecommerce.vercel.app";
 
   useEffect(() => {
     const fetchMyOrders = async () => {

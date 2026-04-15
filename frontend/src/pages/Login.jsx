@@ -8,7 +8,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   // Aapka sahi Railway Live Link
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://final-assigment-ecommerce.vercel.app";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

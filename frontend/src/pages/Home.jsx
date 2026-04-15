@@ -8,7 +8,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   // --- SAHI LIVE LINK YAHAN HAI ---
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://final-assigment-ecommerce.vercel.app";
 
   useEffect(() => {
     const fetchProducts = async () => {
